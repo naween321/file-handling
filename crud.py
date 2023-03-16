@@ -23,11 +23,15 @@ def inquiry():
         cont = read(id)
         return continue_or_not(cont)
     elif selection == 'u':
-        cont = update()
+        id = input("Enter the student ID ")
+        to_change = input("What do you wish to update? (name, age, department) ")
+        value = input(f"Give the new {to_change} ")
+        cont = update(id, to_change, value)
         return continue_or_not(cont)
 
     elif selection == 'd':
-        cont = delete()
+        id = input("Enter the student ID ")
+        cont = delete(id)
         return continue_or_not(cont)
     else:
         print("Thank You. See you again")
