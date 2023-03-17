@@ -37,4 +37,5 @@ def inquiry():
         print("Thank You. See you again")
 
 
-inquiry()
+if __name__ == "__main__":
+    inquiry()
