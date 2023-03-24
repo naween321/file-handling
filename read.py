@@ -1,6 +1,6 @@
 import json
 from decorator import password_required
-filename = "students.json"
+filename = "../students.json"
 
 
 @password_required

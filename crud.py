@@ -1,7 +1,7 @@
-from create import create
-from read import read
-from update import update
-from delete import delete
+from file.create import create
+from file.read import read
+from file.update import update
+from file.delete import delete
 
 
 def inquiry():
@@ -39,3 +39,6 @@ def inquiry():
 
 if __name__ == "__main__":
     inquiry()
+
+
+# Module, Package, Library
