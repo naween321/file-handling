@@ -1,10 +1,10 @@
 import os
 import json
-# from decorator import password_required
-filename = "../students.json"
+from decorator import password_required
+filename = "students.json"
 
 
-# @password_required
+@password_required
 def create():
     id = input("Enter the id of student ")
     name = input("Enter name of the student ")
