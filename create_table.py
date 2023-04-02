@@ -13,4 +13,4 @@ DEPARTMENT CHAR(100)
 """
 
 cursor.execute(sql)
-print("Table created successfully")
+print("Table created successful")
